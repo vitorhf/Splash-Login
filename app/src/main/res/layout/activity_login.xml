@@ -7,7 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vitor.descomplicagame.LoginActivity">
+    tools:context="com.example.vitor.descomplicagame.LoginActivity"
+    android:nestedScrollingEnabled="false"
+    android:background="#f4ed68">
 
     <!-- Login progress -->
     <ProgressBar
@@ -30,62 +32,60 @@
             android:orientation="vertical"
             android:weightSum="1">
 
-            <Button
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/descgame" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/facebook"
-                style="?android:textAppearanceSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Entrar com Facebook"
-                android:textStyle="bold"
-                android:backgroundTint="#6767fc"
-                android:textColor="#ffffff" />
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/btnfacebook"
+                android:background="#00ffffff" />
 
-            <Button
-                android:id="@+id/googleplus"
-                style="?android:textAppearanceSmall"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Entrar com Google"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:backgroundTint="#CF4332" />
+                android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="OU"
-                android:id="@+id/textView"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                android:textAlignment="center" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:ems="10"
-                android:id="@+id/txtEmail"
-                android:hint="E-mail" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Esqueceu a senha?"
+                        android:id="@+id/textView"
+                        android:textColor="#4e70a9"
+                        android:paddingTop="10dp"
+                        android:paddingLeft="60dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_row="0"
+                        android:layout_column="0" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:ems="10"
-                android:id="@+id/txtSenha"
-                android:hint="Senha" />
-
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Entrar"
-                android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="174dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Registre"
+                        android:id="@+id/textView2"
+                        android:layout_gravity="right"
+                        android:textColor="#4e70a9"
+                        android:paddingLeft="60dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="false"
+                        android:layout_alignParentLeft="false"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:singleLine="true" />
+                </GridLayout>
+            </RelativeLayout>
 
         </LinearLayout>
     </ScrollView>

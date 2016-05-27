@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Vitor\Downloads\gama-app-final\gama-descom\DescomplicaGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="303a730993a8a866efc7816168a982da2a7c9d46">
+        <dex dex="C:\Users\Vitor\Downloads\gama-app-final\gama-descom\DescomplicaGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_69e50e52c5e4986d694559392ee62cc192f26885\classes.dex" />
+    </item>
+
+</items>

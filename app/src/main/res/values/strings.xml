@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Descomplica Game</string>
+    <string name="title_activity_login">Descomplica Game</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">E-mail Inválido</string>
+    <string name="error_invalid_password">Senha muito curta.</string>
+    <string name="error_incorrect_password">Senha Incorreta</string>
+    <string name="error_field_required">Campo Obrigatório</string>
+    <string name="permission_rationale">"Permissão aos contatos é necessário."</string>
+    <string name="navigation_drawer_open">Abrir Navegação</string>
+    <string name="navigation_drawer_close">Fechar Navegação</string>
+</resources>
